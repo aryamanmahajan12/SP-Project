@@ -21,4 +21,7 @@ We had 4 sample audio files which each contained the same background music, supe
 
 The method for generating the template noises, which worked with the highest accuracy and lowest error rate is the method discussed below for generating template noises: 
 
--We obtain 4C2 = 6 combinations of the 4 input files. We know that the background music behind all the noise samples is the same. Also, the length of all 4 files is also known to be the same. Assuming the nature of noise is purely additive in all the 4 given music samples, the subtraction of the data points of two of these 4 files cancels the music content and leaves behind only the noise content. Hence, we finally generate 6 ‘only noise’ samples. Now, we obtain correlation of the input file with all 6 samples. We store the peak values of each correlation vector in an array. The three highest values in the vector have a certain noise component in common, which is thus concluded as the kind of noise present in the input file.
+- We obtain 4C2 = 6 combinations of the 4 input files. We know that the background music behind all the noise samples is the same. Also, the length of all 4 files is also known to be the same. Assuming the nature 
+  of noise is purely additive in all the 4 given music samples, the subtraction of the data points of two of these 4 files cancels the music content and leaves behind only the noise content. Hence, we finally 
+  generate 6 ‘only noise’ samples. Now, we obtain correlation of the input file with all 6 samples. We store the peak values of each correlation vector in an array. The three highest values in the vector have a 
+  certain noise component in common, which is thus concluded as the kind of noise present in the input file.
