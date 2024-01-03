@@ -1,4 +1,4 @@
-# SP-Project
+# Signal Processing - Project
 
 # The problem statement consisted of three components:
 
