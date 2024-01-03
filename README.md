@@ -1,6 +1,6 @@
 # Signal Processing - Project
 
-# The problem statement consisted of three components:
+## The problem statement consisted of three components:
 
 - Echo creation for a given audio file,
 - Removal of echo from a given audio file, 
